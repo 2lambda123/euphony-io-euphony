@@ -25,7 +25,7 @@ There are 3 ways adding euphony to your project.
 
 ### 1.1 Using Maven repository
 
-1. Show **_Project window_** with **_Android project view_**.  
+1. Show **_Project window_** with **_Android project view_**.
    You can select a project view mode in the dropdown list, then open your `build.gradle` file under `Gradle Scripts`.
 
 <img width="392" alt="maven_001_auto_x2_colored_toned" src="https://user-images.githubusercontent.com/27720475/130187144-6bcd31e2-589e-48e0-91ff-d05d28bea4e4.png">
