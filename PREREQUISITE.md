@@ -25,7 +25,7 @@ There are 3 ways adding euphony to your project.
 
 ### 1.1 Using Maven repository
 
-1. Show **_Project window_** with **_Android project view_**.   
+1. Show **_Project window_** with **_Android project view_**.  
    You can select a project view mode in the dropdown list, then open your `build.gradle` file under `Gradle Scripts`.
 
 <img width="392" alt="maven_001_auto_x2_colored_toned" src="https://user-images.githubusercontent.com/27720475/130187144-6bcd31e2-589e-48e0-91ff-d05d28bea4e4.png">
@@ -187,7 +187,7 @@ String[] permissions = {
 };
 
 // after requestPermissions
-ActivityResultLauncher<String[]> multiplePermissionLauncher = registerForActivityResult(new 
+ActivityResultLauncher<String[]> multiplePermissionLauncher = registerForActivityResult(new
 ActivityResultContracts.RequestMultiplePermissions(), grantResults -> {
     for(Boolean result : grantResults.values()) {
         if (!result) {
@@ -202,5 +202,4 @@ if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 
 We can know whether permissions are denied or not. And we also consider both sdk version is higher than 16 which is marshmallow and call function RequestMultiplePermissions.
 
-	
 </details>
